@@ -1,0 +1,25 @@
+{
+    "name": "leokbr/teste",
+    "type": "library",
+    "description": "A simple way to work with date and time in PHP. It contains a powerful schedule maker.",
+    "version": "1.0.0",
+    "keywords": ["time","hour","date","functions","easy","codemage","schedule"],
+    "homepage": "https://github.com/henriquefernandez/DateTime",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "authors": [
+        {
+            "name": "Leonardo Souza de Carvalho",
+            "email": "leonardo.souzas30@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Leokbr\\Teste\\" : "codigo"
+        }
+    }
+}
